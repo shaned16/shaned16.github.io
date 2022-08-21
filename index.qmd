@@ -1,5 +1,5 @@
 ---
-title: "shaned16.github.io"
+title: "Shanes Website for Tomfoolery"
 ---
 
 This is a Quarto website.
