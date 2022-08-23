@@ -4,6 +4,9 @@ project:
 
 website:
   title: "shaned16.github.io"
+  about:
+    template: trestles
+    
   navbar:
     left:
       - href: index.qmd
