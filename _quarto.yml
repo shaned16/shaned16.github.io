@@ -4,6 +4,7 @@ project:
 
 website:
   title: "shaned16.github.io"
+    template: trestles 
   about:
     template: trestles
     
@@ -12,6 +13,7 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - 
 
 format:
   html:
