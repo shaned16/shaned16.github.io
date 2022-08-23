@@ -3,21 +3,19 @@ project:
   output-dir: docs
 
 website:
-  title: "shaned16.github.io"
-    template: trestles 
+  title: "shaned16.github.io "
   about:
-    template: trestles
     
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
-      - 
+      - publications.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: trestles
     css: styles.css
     toc: true
 
