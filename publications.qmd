@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 ---
-[(1) Characterizing Anion Adsorption to Aqueous Interfaces: Air-water vs Oil-water](https://pubs.acs.org/doi/10.1021/acs.jpclett.1c03816)
+#(1)[ Characterizing Anion Adsorption to Aqueous Interfaces: Air-water vs Oil-water](https://pubs.acs.org/doi/10.1021/acs.jpclett.1c03816)
 
 ![](Characterizing_Anion_cover.png)
 
