@@ -12,6 +12,7 @@ website:
         text: Home
       - about.qmd
       - publications.qmd
+      - fun.qmd
 
 format:
   html:

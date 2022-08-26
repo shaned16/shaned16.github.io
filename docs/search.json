@@ -1,10 +1,17 @@
 [
   {
+    "objectID": "fun.html",
+    "href": "fun.html",
+    "title": "Personal Blog",
+    "section": "",
+    "text": "This page is where I will post about all of the things that bring me joy outside of the lab!"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Shane Devlin",
     "section": "",
-    "text": "I am a PhD Candidate in the UC Berkeley Department of Chemistry. As an experimental physical chemist, I am interested in a fundamental understanding of how water and ions behave at surfaces, and the role this plays in environmentally and atmospherically relevant systems. Check out my research page for more information about the work that I do!"
+    "text": "I am a PhD Candidate in the UC Berkeley Department of Chemistry. As an experimental physical chemist, I am interested in a fundamental understanding of how water and ions behave at surfaces, and the role this plays in environmentally and atmospherically relevant systems. Check out my research page for more information about the work that I do!\nFor more information on the NOT-work that I do, check out THIS page!"
   },
   {
     "objectID": "publications.html",

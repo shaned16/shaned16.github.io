@@ -9,4 +9,5 @@ about:
 
 I am a PhD Candidate in the UC Berkeley Department of Chemistry. As an experimental physical chemist, I am interested in a fundamental understanding of how water and ions behave at surfaces, and the role this plays in environmentally and atmospherically relevant systems. Check out my [research](publications.qmd) page for more information about the work that I do!
 
-For more information on the NOT work that I do, check out [THIS](fun.qmd) page!
+For more information on the NOT-work that I do, check out [THIS](fun.qmd) page!
+
