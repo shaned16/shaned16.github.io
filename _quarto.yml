@@ -17,7 +17,7 @@ format:
   html:
     theme: journal
     css: styles.css
-    fontsize: 14px
+    fontsize: 16px
     toc: true
 
 editor: visual
