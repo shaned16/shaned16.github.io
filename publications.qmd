@@ -1,11 +1,8 @@
 ---
 title: "Research Blog"
-format:
-  html:
-    fontsize: 20px
 ---
 
-## (4) \[On The Mechanism of Ion Adsorption to Aqueous Interfaces: Air-water vs Oil-water\]
+## (5) \[Paper: On The Mechanism of Ion Adsorption to Aqueous Interfaces: Air-water vs Oil-water\]
 
 ![Snapshot of SCN- at the water-decane interface](Oil_water_MD.png){style="text-align: center;" width="244"}
 
@@ -13,30 +10,39 @@ In this paper, we expand upon our previous work by studying adsorption to a new 
 
 **Abstract**: The adsorption of ions to water-hydrophobe interfaces influences a wide range of phenomena, including chemical reaction rates, ion transport across biological membranes, electrochemical and many catalytic processes; hence, developing a detailed understanding of the behavior of ions at water-hydrophobe interfaces is of central interest. Here, we characterize the adsorption of the chaotropic thiocyanate anion (SCN-) to two prototypical liquid hydrophobic surfaces, water-toluene and water-decane, by surface-sensitive nonlinear spectroscopy, and compare the results against our previous studies of SCN- adsorption to the air-water interface. For these systems, we observe no spectral shift in the charge transfer to solvent spectrum of SCN-, and the Gibb's free energies of adsorption for these three different interfaces all agree within error. We employ MD simulations to develop a molecular-level understanding of the adsorption mechanism and find that the adsorption for SCN- to both water-toluene and water-decane interfaces is driven by an increase in entropy, with very little enthalpic contribution. This is a qualitatively different mechanism than reported for SCN- adsorption to the air-water and graphene-water interfaces, wherein a favorable enthalpy change was the main driving force, against an unfavorable entropy change.
 
-## (3) [Ultrafast Xray Summer School (UXSS)](https://web.stanford.edu/group/pulse_institute/uxss2022/) 
+## (4) [Conference: Ultrafast Xray Summer School (UXSS)](https://web.stanford.edu/group/pulse_institute/uxss2022/)
 
-Pulse Institute; Stanford Linear Accelerator (SLAC), Menlo Park, CA - June 2022
+**Pulse Institute; Stanford Linear Accelerator (SLAC), Menlo Park, CA - June 2022**
 
 The UXSS is a four day conference hosted annually by Stanford University's PULSE Institute.
 
 The goal is to disseminate information and train students and post-docs on new opportunities in ultrafast science, particularly using X-ray Free Electron Lasers. Lectures were presented by expert scientists in this exciting new field.
 
-I had a great time attending lectures, meeting students from different XFEL facilities around the world, and working on collaborative data analysis projects! 
+I had a great time attending lectures, meeting students from different XFEL facilities around the world, and working on collaborative data analysis projects!
 
+## (3) Awards: Department of Chemistry Teaching Awards
 
-## (2) [American Chemical Society Meeting](https://www.morressier.com/o/event/623377e0b300ee00119b311f)
+**UC Berkeley - April 2022**
 
-San Diego, CA - March 2022
+This month I received two teaching awards!
 
-In March of 2022, I attended the American Chemical Society meeting in San Diego, CA with two of my labmates. Apart from enjoying the SoCal sunshine, I had stimulating discussions with graduates students and professors from around the country, attended talks from many leaders in the field surface science, and presented a poster on my research at the physical chemistry poster session.
+**Chemistry Instructional Achievement Award**: This is awarded by the department of chemistry to graduate students who have had a significant impact on student success and/or curriculum development. Awardees were selected by evaluation over their entire instructional career (for me, three semesters of teaching) and were based on faculty nominations and student feedback.
+
+**Outstanding Graduate Student Instructor (GSI) Teaching Award**: This is awarded by the Graduate Student Teaching and Resource Center and is given to GSI's with exceptional achievements in teaching.
+
+## (2) [Conference: American Chemical Society Meeting](https://www.morressier.com/o/event/623377e0b300ee00119b311f)
+
+**San Diego, CA - March 2022**
+
+In March of 2022, I attended the American Chemical Society meeting in San Diego, CA with two of my labmates. Apart from enjoying the SoCal sunshine, I had stimulating discussions with graduates students and professors from around the country, attended talks from many leaders in the field of surface science, and presented a poster on my research at the physical chemistry poster session.
 
 [Poster](ACS_Poster.pdf){style="text-align:center;"} [Abstract](https://www.morressier.com/o/event/623377e0b300ee00119b311f/article/6234a19f818a915252b8069c){style="text-align:center;"}
 
 ![Physical Chemistry Poster Session](ACS_Shanev2.jpg){style="text-align: center;" width="314"}
 
-## (1) [Characterizing Anion Adsorption to Aqueous Interfaces: Toluene-water vs Air-water](https://pubs.acs.org/doi/10.1021/acs.jpclett.1c03816)
+## (1) [Paper: Characterizing Anion Adsorption to Aqueous Interfaces: Toluene-water vs Air-water](https://pubs.acs.org/doi/10.1021/acs.jpclett.1c03816)
 
-Journal of Physical Chemistry Letters - December 2021
+J**ournal of Physical Chemistry Letters - December 2021**
 
 ![Schematic of Sum-Frequency Experiment Probing Toluene-water Interface](Characterizing_Anion_cover.png){style="text-align: center;" width="453"}
 
