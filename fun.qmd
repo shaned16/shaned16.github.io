@@ -3,3 +3,7 @@ title: Personal Blog
 ---
 
 This page is where I will post about all of the things that bring me joy outside of the lab!
+
+**Whats up with all of the stray cats in Berkeley?**
+
+![Stray/outdoor cats in Berkeley](Berk_cats.png)
