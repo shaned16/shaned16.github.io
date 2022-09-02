@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>shaned16.github.io - Personal Blog</title>
+<title>shaned16.github.io - Fun Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,6 +25,8 @@ ul.task-list{list-style: none;}
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -53,6 +55,35 @@ ul.task-list{list-style: none;}
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
@@ -83,10 +114,10 @@ ul.task-list{list-style: none;}
     <a class="nav-link" href="./publications.html">Research Blog</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./fun.html" aria-current="page">Personal Blog</a>
+    <a class="nav-link" href="./fun.html">Personal Blog</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./fun_blog.html">Personal Blog v2</a>
+    <a class="nav-link active" href="./fun_blog.html" aria-current="page">Personal Blog v2</a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -95,61 +126,77 @@ ul.task-list{list-style: none;}
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Fun Blog</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#sláinte" id="toc-sláinte" class="nav-link active" data-scroll-target="#sláinte">🍺 Sláinte! 🍺</a></li>
-  <li><a href="#whats-the-deal-with-all-of-the-strayoutdoor-cats-in-berkeley" id="toc-whats-the-deal-with-all-of-the-strayoutdoor-cats-in-berkeley" class="nav-link" data-scroll-target="#whats-the-deal-with-all-of-the-strayoutdoor-cats-in-berkeley">Whats the deal with all of the stray/outdoor cats in Berkeley?</a></li>
-  </ul>
-</nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="cats"><span class="quarto-category-count category-cloud-10">cats</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Personal Blog</h1>
+
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-    
-  </div>
-  
-
-</header>
-
-<section id="sláinte" class="level2">
-<h2 class="anchored" data-anchor-id="sláinte">🍺 Sláinte! 🍺</h2>
-<p>We are back! We took quite a hiatus from brewing, but this past weekend we got together and put on our best</p>
-</section>
-<section id="whats-the-deal-with-all-of-the-strayoutdoor-cats-in-berkeley" class="level2">
-<h2 class="anchored" data-anchor-id="whats-the-deal-with-all-of-the-strayoutdoor-cats-in-berkeley">Whats the deal with all of the stray/outdoor cats in Berkeley?</h2>
-<div class="quarto-figure quarto-figure-center" style="text-align: center;">
-<figure class="figure">
-<p><img src="Berk_cats.png" class="img-fluid figure-img" width="442"></p>
-<p></p><figcaption class="figure-caption">A small sample of the stray/outdoor cats in Berkeley that I have met over the years!</figcaption><p></p>
-</figure>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="cats" data-listing-date-sort="1661410800000" data-listing-file-modified-sort="1662091243768" data-listing-reading-time-sort="1.035">
+<a href="./fun_posts/Cats.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Whats the deal with all the stray/outdoor cats in Berkeley?
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('cats'); return false;">
+cats
 </div>
-<p>Berkeley is a truly wonderful city. Over the last 5 years, I have enjoyed many aspects of living here - the food, the weather, the geography. Oh, and not to mention … the CATS. Berkeley, for some reason, seems to have an extremely high proportion of outdoor/stray cats. I love it.</p>
-<p>Each neighborhood I have lived in has it’s own unique clowder of cats. Some of them friendly, some of them standoff-ish, all of them delightful. Let’s ball-park estimate the number of outdoor cats in Berkeley. Berkeley is roughly a square city, measuring 5x5 miles, and lets assume that there are 10 blocks in a city mile and lets also assume that each city block has at minimum 1 outdoor/stray cat. That gives us:</p>
-<p><span class="math display">\[
-25 miles^2  * 10^2  \frac{blocks}{mile^2} * 10^0 \frac{cats}{block}=2,500 cats
-\]</span> At minimum, there are 2,500 stray/outdoor cats in Berkeley. My personal experience tells me the true number must be a lot higher.</p>
-<p>It is no surprise that the animal shelter in Berkeley is <a href="https://www.berkeleyside.org/2022/07/13/berkeley-animal-shelter-overcrowded-with-cats">“swamped” with kittens</a>. So, if you, like me, want to make sure all of these cats get into good homes, head down to the <a href="https://berkeleyca.gov/community-recreation/animal-care-services/adopt-pet">Berkeley animal shelter!</a></p>
-
-
-</section>
-
-</main> <!-- /main -->
+</div>
+<div class="card-text listing-description">
+Seriously, whats the deal?
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Shane Devlin + Neighborhood Cats
+</div>
+<div class="listing-date">
+Aug 25, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

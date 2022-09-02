@@ -4,7 +4,14 @@
     "href": "fun.html",
     "title": "Personal Blog",
     "section": "",
-    "text": "A small sample of the stray/outdoor cats in Berkeley that I have met over the years!\n\n\nBerkeley is a truly wonderful city. Over the last 5 years, I have enjoyed many aspects of living here - the food, the weather, the geography. Oh, and not to mention … the CATS. Berkeley, for some reason, seems to have an extremely high proportion of outdoor/stray cats. I love it.\nEach neighborhood I have lived in has it’s own unique clowder of cats. Some of them friendly, some of them standoff-ish, all of them delightful. Let’s ball-park estimate the number of outdoor cats in Berkeley. Berkeley is roughly a square city, measuring 5x5 miles, and lets assume that there are 10 blocks in a city mile and lets also assume that each city block has at minimum 1 outdoor/stray cat. That gives us:\n\\[\n25 miles^2  * 10^2  \\frac{blocks}{mile^2} * 10^0 \\frac{cats}{block}=2,500 cats\n\\] At minimum, there are 2,500 stray/outdoor cats in Berkeley. My personal experience tells me the true number must be a lot higher.\nIt is no surprise that the animal shelter in Berkeley is “swamped” with kittens. So, if you, like me, want to make sure all of these cats get into good homes, head down to the Berkeley animal shelter!"
+    "text": "We are back! We took quite a hiatus from brewing, but this past weekend we got together and put on our best"
+  },
+  {
+    "objectID": "fun.html#whats-the-deal-with-all-of-the-strayoutdoor-cats-in-berkeley",
+    "href": "fun.html#whats-the-deal-with-all-of-the-strayoutdoor-cats-in-berkeley",
+    "title": "Personal Blog",
+    "section": "Whats the deal with all of the stray/outdoor cats in Berkeley?",
+    "text": "Whats the deal with all of the stray/outdoor cats in Berkeley?\n\n\n\nA small sample of the stray/outdoor cats in Berkeley that I have met over the years!\n\n\nBerkeley is a truly wonderful city. Over the last 5 years, I have enjoyed many aspects of living here - the food, the weather, the geography. Oh, and not to mention … the CATS. Berkeley, for some reason, seems to have an extremely high proportion of outdoor/stray cats. I love it.\nEach neighborhood I have lived in has it’s own unique clowder of cats. Some of them friendly, some of them standoff-ish, all of them delightful. Let’s ball-park estimate the number of outdoor cats in Berkeley. Berkeley is roughly a square city, measuring 5x5 miles, and lets assume that there are 10 blocks in a city mile and lets also assume that each city block has at minimum 1 outdoor/stray cat. That gives us:\n\\[\n25 miles^2  * 10^2  \\frac{blocks}{mile^2} * 10^0 \\frac{cats}{block}=2,500 cats\n\\] At minimum, there are 2,500 stray/outdoor cats in Berkeley. My personal experience tells me the true number must be a lot higher.\nIt is no surprise that the animal shelter in Berkeley is “swamped” with kittens. So, if you, like me, want to make sure all of these cats get into good homes, head down to the Berkeley animal shelter!"
   },
   {
     "objectID": "index.html",
@@ -12,6 +19,13 @@
     "title": "Shane Devlin",
     "section": "",
     "text": "I am a PhD Candidate in the UC Berkeley Department of Chemistry. As an experimental physical chemist, I am interested in a fundamental understanding of how water and ions behave at surfaces, and the role this plays in environmentally and atmospherically relevant systems. Check out my research page for more information about the work that I do!\nFor more information on the NOT-work that I do, check out THIS page!"
+  },
+  {
+    "objectID": "fun_blog.html",
+    "href": "fun_blog.html",
+    "title": "Fun Blog",
+    "section": "",
+    "text": "cats\n\n\n\nSeriously, whats the deal?\n\n\n\nShane Devlin + Neighborhood Cats\n\n\nAug 25, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications.html",
@@ -61,5 +75,12 @@
     "title": "About",
     "section": "",
     "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "fun_posts/Cats.html",
+    "href": "fun_posts/Cats.html",
+    "title": "Whats the deal with all the stray/outdoor cats in Berkeley?",
+    "section": "",
+    "text": "Berkeley is a truly wonderful city. Over the last 5 years, I have enjoyed many aspects of living here - the food, the weather, the geography. Oh, and not to mention … the CATS. Berkeley, for some reason, seems to have an extremely high proportion of outdoor/stray cats. I love it.\nEach neighborhood I have lived in has it’s own unique clowder of cats. Some of them friendly, some of them standoff-ish, all of them delightful. Let’s ball-park estimate the number of outdoor cats in Berkeley. Berkeley is roughly a square city, measuring 5x5 miles, and lets assume that there are 10 blocks in a city mile and lets also assume that each city block has at minimum 1 outdoor/stray cat. That gives us:\n$$\n25 miles^2 * 10^2 \\frac{blocks}{mile^2} * 10^0 \\frac{cats}{block}=2,500 cats\n$$ At minimum, there are 2,500 stray/outdoor cats in Berkeley. My personal experience tells me the true number must be a lot higher.\nIt is no surprise that the animal shelter in Berkeley is [“swamped” with kittens](https://www.berkeleyside.org/2022/07/13/berkeley-animal-shelter-overcrowded-with-cats). So, if you, like me, want to make sure all of these cats get into good homes, head down to the [Berkeley animal shelter!](https://berkeleyca.gov/community-recreation/animal-care-services/adopt-pet)"
   }
 ]

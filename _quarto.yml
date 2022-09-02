@@ -13,6 +13,8 @@ website:
       - about.qmd
       - publications.qmd
       - fun.qmd
+      - href: fun_blog.qmd
+        text: Personal Blog v2
 
 format:
   html:
