@@ -1,11 +1,6 @@
 ---
 title: Personal Blog
 ---
-
-##  🍺 Sláinte! 🍺
-We are back! We took quite a hiatus from brewing, but this past weekend we got together and put on our best  
-
-
 ## Whats the deal with all of the stray/outdoor cats in Berkeley?
 
 ![A small sample of the stray/outdoor cats in Berkeley that I have met over the years!](Berk_cats.png){style="text-align: center;" width="442"}
