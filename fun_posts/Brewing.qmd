@@ -22,6 +22,6 @@ All of the crushed malt then gets steeped in hot water at about 155 F for one ho
 
 After the mash, we sparge. Sparging is the process by which we we separate all of those new fermentable sugars from the grain-mash. The contraption for this is neat:
 
-![Alex enjoying some non-homebrew beer while supervising the sparge](../sparge.jpeg){width="284"}
+![Alex enjoying some non-homebrew beer while supervising the sparge (not sponsored by Happy's Spirits and Wines)](../sparge.jpeg){width="284"}
 
 The top bucket is filled with water at \~170 F, the middle bucket is our mash, and the bottom 7 gallon kettle is our collection vessel. The process is simple - the top bucket very gentle springles hot water on the mash. This hot water rinses the grain bed and helps push out all of the sugar water - which gets collected in the stainless steel kettle.
