@@ -16,6 +16,7 @@ Each neighborhood I have lived in has it's own unique clowder of cats. Some of t
 
 $$
 25 miles^2  * 10^2  \frac{blocks}{mile^2} * 10^0 \frac{cats}{block}=2,500 cats
-$$ At minimum, there are 2,500 stray/outdoor cats in Berkeley. My personal experience tells me the true number must be a lot higher.
+$$ 
+At minimum, there are 2,500 stray/outdoor cats in Berkeley. My personal experience tells me the true number must be a lot higher.
 
 It is no surprise that the animal shelter in Berkeley is ["swamped" with kittens](https://www.berkeleyside.org/2022/07/13/berkeley-animal-shelter-overcrowded-with-cats). So, if you, like me, want to make sure all of these cats get into good homes, head down to the [Berkeley animal shelter!](https://berkeleyca.gov/community-recreation/animal-care-services/adopt-pet)

@@ -1,0 +1,27 @@
+---
+title: "🍺 Sláinte! 🍺"
+description: "All-grain brewing ; Steve's Stout"
+author: "Shane Devlin"
+date: "9/3/2022"
+image: ../steves_stout.png
+categories:
+  - Brewing
+---
+
+We are back! We took quite a hiatus from brewing, but this past weekend we got together and put on our best brewer's caps to make one of our favorites - Steve's Stout. My friend Steve has been honing in this recipe for over 10 years, and it is a phenomenal beer.
+
+We use the all-grain method of brewing, as opposed to using an extract. It is a little extra work, but allows more control over the final product, and the process itself is quite fun.
+
+The first step on brew day is to grind up all of our base grain and specialty grain. For this recipe, we use roughly 16 pounds of 2-row crystal malt as our base, and 3 pounds of specialty grain. For a stout, the specialty grain is roasted to give those characteristic flavors and aromas of a dark beer.
+
+![Milling our Grain via Electric Drill](../grinding_grain.jpeg){width="301"}
+
+All of the crushed malt then gets steeped in hot water at about 155 F for one hour - this is called the "mash". This hot-water bath hydrates the malt, releases natural enzymes, and those enzymes can then break down the starches into sugar. This is an important step - the sugar produced here is what ultimately gets fermented to alcohol by the yeast later down the line - mashing at the correct temperature is important for good conversion and a good beer.
+
+![Steve and Alex making sure the grain is well mixed](../mash.jpeg){width="328"}
+
+After the mash, we sparge. Sparging is the process by which we we separate all of those new fermentable sugars from the grain-mash. The contraption for this is neat:
+
+![Alex enjoying some non-homebrew beer while supervising the sparge](../sparge.jpeg){width="284"}
+
+The top bucket is filled with water at \~170 F, the middle bucket is our mash, and the bottom 7 gallon kettle is our collection vessel. The process is simple - the top bucket very gentle springles hot water on the mash. This hot water rinses the grain bed and helps push out all of the sugar water - which gets collected in the stainless steel kettle.
