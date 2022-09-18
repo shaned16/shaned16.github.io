@@ -1,0 +1,15 @@
+---
+title: "Point Reyes Bike Packing"
+
+description: "Berkeley ➡ Pt. Reyes Bike Packing Trip  "
+
+author: "Shane Devlin"
+
+date: "9/12/2022"
+
+categories:
+
+ - Cycling
+---
+
+Bikepacking combines two of my favorite things - cycling and camping! It is a rewarding experience to
