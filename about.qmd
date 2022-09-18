@@ -2,7 +2,7 @@
 title: About
 ---
 
-# Shane Devlin {style="text-align: center;"}
+# Shane Devlin{style="text-align: center;"}
 
 ## Berkeley, CA • shanedevlin33\@gmail.com {style="text-align: center;"}
 
@@ -16,10 +16,10 @@ title: About
 
 ## Publications
 
-(4) Devlin, S.W.; Saykally, R.J. "Confirmation of Reversed Fractionation of The Aqueous Carbonate System at the Air-water Interface" manuscript in progress.
+\(4\) Devlin, S.W.; Saykally, R.J. "Confirmation of Reversed Fractionation of The Aqueous Carbonate System at the Air-water Interface" manuscript in progress.
 
-(3) Devlin, S. W.; Benjamin, I.; Saykally, R. J. "On The Mechanism of Ion Adsorption To Aqueous Interfaces: Air-water vs. Oil-Water" *PNAS,* **2022,** In Press.
+\(3\) Devlin, S. W.; Benjamin, I.; Saykally, R. J. "On The Mechanism of Ion Adsorption To Aqueous Interfaces: Air-water vs. Oil-Water" *PNAS,* **2022,** In Press.
 
-(2) [Devlin, S. W.; McCaffrey, D.; Saykally, R. J. "Characterizing Anion Adsorption to Aqueous Interfaces: Air-water vs Toluene-water" *J. Phys. Chem. Lett.* **2022,** 13, 222-228.](https://pubs.acs.org/doi/10.1021/acs.jpclett.1c03816)
+\(2\) [Devlin, S. W.; McCaffrey, D.; Saykally, R. J. "Characterizing Anion Adsorption to Aqueous Interfaces: Air-water vs Toluene-water" *J. Phys. Chem. Lett.* **2022,** 13, 222-228.](https://pubs.acs.org/doi/10.1021/acs.jpclett.1c03816)
 
-(1) [Raj,S. L.; Devlin, S. W.; et al. "Free Electron Laser Measurements of Liquid Carbon Reflectivity in the Extreme Ultraviolet" *Photonics,* **2020,** 7(2), 35.](https://www.mdpi.com/2304-6732/7/2/35)
+\(1\) [Raj,S. L.; Devlin, S. W.; et al. "Free Electron Laser Measurements of Liquid Carbon Reflectivity in the Extreme Ultraviolet" *Photonics,* **2020,** 7(2), 35.](https://www.mdpi.com/2304-6732/7/2/35)
