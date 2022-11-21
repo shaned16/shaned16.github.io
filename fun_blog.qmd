@@ -1,5 +1,5 @@
 ---
-title: "Fun Blog"
+title: "Life in Berkeley"
 listing:
   contents: fun_posts
   sort: "date desc"

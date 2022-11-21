@@ -3,7 +3,7 @@ title: "🍺 Sláinte! 🍺"
 description: "All-grain brewing ; Steve's Stout"
 author: "Shane Devlin"
 date: "9/3/2022"
-image: ../steves_stout.png
+image: ../steves_stout.jpg
 categories:
   - Brewing
 ---

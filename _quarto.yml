@@ -3,18 +3,21 @@ project:
   output-dir: docs
 
 website:
-  title: "shaned16.github.io "
+  title: "Shane Devlin, UC Berkeley Chemistry "
   about:
-    
+  
+  favicon: twitter.png
+  twitter-card: true
+  site-url: https://twitter.com/shanedevlin33 
+  
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
       - publications.qmd
-      - fun.qmd
       - href: fun_blog.qmd
-        text: Personal Blog v2
+        text: Personal Blog
 
 format:
   html:

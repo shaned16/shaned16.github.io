@@ -1,15 +1,26 @@
 ---
 title: "Point Reyes Bike Packing"
-
 description: "Berkeley ➡ Pt. Reyes Bike Packing Trip  "
-
 author: "Shane Devlin"
-
 date: "9/12/2022"
-
+image: ../S_T_start.jpeg
 categories:
-
  - Cycling
 ---
 
-Bikepacking combines two of my favorite things - cycling and camping! It is a rewarding experience to
+I recently went on a bike packing trip with my good friend [Tyler](https://tylerkindy.com), who flew out from Boston to log some miles on the west coast.  
+
+Tyler and I have been bike packing partners since our junior year of college, which was our first trip together. That ride was a 2-day, 100 mile loop in Western Massachusetts, with the goal of stopping at as many breweries as possible. Day 1 was great - full of beautiful bike riding and delicious beer. Day 2 was a little more sluggish to say the least... but still a blast. Since then we have been constantly planning more trips together. 
+
+For this ride, we settled on exploring the Pt.Reyes region north of San Francisco and had mapped out a 4-day ride. 
+
+Day 1: Berkeley -> Samuel P Taylor State Park
+On our first day, we left my apartment in Berkeley at around 10 AM and had an easy first 10 miles biking along the water on the San Francisco Bay Trail, with great views of the SF skyline. We then crossed over the San Rafael bridge (wind advisory) and started biking through Marin up towards Pt Reyes. 
+
+As we moved away from the water and into the San Geronimo Valley, the temperature started rising FAST. The ambient temperatures being recorded were over 100 F, but with the sun radiating off of the pavement, I think Tyler and I were experiencing temperatures closer to 110 - 115 F. At this point, we were about 30 miles into our ride and the exhaustion was really setting in for us. 
+
+It seemed likely that we wouldn't make it 
+
+
+
+
