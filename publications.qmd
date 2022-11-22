@@ -4,7 +4,7 @@ title: "Research Blog"
 
 ------------------------------------------------------------------------
 
-My research is aimed at developing a deep understanding of the behavior of ions and water at aqueous interfaces. This work is motivated by the recent discovery that certain ions have enhanced concentrations in the interfacial region, relative to their bulk concentration, as well as from the importance that surfaces play in driving much of the chemistry we observe in the natural world (at the ocean surface, reactions inside aerosol droplets, biological membranes, etc.) Our goal is to develop a mechanistic understanding of **what drives ions to aqueous interfaces**. Is this driving force general? Is it ion specific? Interface specific? To answer these questions, we measure thermodynamic properties for different ions to different types of interfaces. However, there is one difficulty: probing an interface is exceptionally hard, owing to the fact that the signal from those few molecular layers that constitute an "interface" is quite small when compared to the signal that arises from the very large "bulk" of a material.
+My research is aimed at developing a deep understanding of the behavior of ions and water at aqueous interfaces. This work is motivated by the recent discovery that certain ions have enhanced concentrations in the interfacial region, relative to their bulk concentration, as well as from the importance that surfaces play in driving much of the chemistry we observe in the natural world (at the ocean surface, reactions inside aerosol droplets, biological membranes, etc.) Our goal is to develop a mechanistic understanding of **what drives ions to aqueous interfaces**. Is this driving force general? Is it ion specific? Interface specific? To answer these questions, we measure thermodynamic properties for different ions to different types of interfaces.
 
 In order to properly study interfaces we require special tools: second-order nonlinear spectroscopy, which is a **surface-selective** spectroscopy. [Our group](http://www.cchem.berkeley.edu/rjsgrp/sfgshg.php) has developed multiple techniques for this:
 
@@ -13,9 +13,15 @@ In order to properly study interfaces we require special tools: second-order non
 
 These two techniques, combined with simulations, allow us to develop a detailed picture of ion adsorption.
 
-Recently, we have expanded our arsenal of interface-specific spectroscopy tools through the development of Soft Xray Second Harmonic Generation. This technique combines the element specificity of Xray Spectroscopy with the surface-sensitivity of non-linear optics. We travel to Xray Free Electron Laser facilities, which are unique accelerator facilities that produce extremely bright and coherent Xrays. I am looking forward to future work using this technique!
+Recently, we have expanded our arsenal of interface-specific spectroscopy tools through the development of Soft Xray Second Harmonic Generation. This technique combines the element specificity of Xray Spectroscopy with the surface-sensitivity of nonlinear optics. We travel to Xray Free Electron Lasers, which are unique accelerator facilities that produce extremely bright and coherent Xrays.
 
 Below, you will find blog-style postings for events related to my research, such as published papers, conferences I have attended, etc. Enjoy - and please reach out to me if you have any questions or would like to discuss any of my work!
+
+## (6) \[Paper: Agglomeration Drives the Reversed Fractionation of Carbonate and Bicarbonate at the Air-water Interface\]()
+
+![MD snapshot showing carbonate agglomeration in solution](Carb.jpg){style="text-align: center"}
+
+In this paper, we measure the surface affinity of the carbonate and bicarbonate anions to the air-water interface, a vitally important system in atmospheric aerosol and ocean-surface chemistry. We find that doubly-charged carbonate exhibits stronger attraction to the surface than does singly-charged bicarbonate, contradicting long-standing classical electrostatic theory and current predictions from ion adsorption models. Through MD simulations, we found that strong ion pairing, resulting in the formation on large, near-neutral clusters of sodium cations and carbonate anions, is responsible for this behavior. These agglomerates show much stronger surface affinity over the bicarbonate anions, which do not cluster in aqueous solutions. These findings will have influence our understanding of carbon dioxide dissolution in the ocean, as well as how pH in small aerosol droplets might influence reaction kinetics and pathways.
 
 ## (5) [Paper: On The Mechanism of Ion Adsorption to Aqueous Interfaces: Air-water vs Oil-water](https://www.pnas.org/doi/10.1073/pnas.2210857119)
 

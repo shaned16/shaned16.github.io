@@ -4,10 +4,10 @@ image: cat2.png
 about: 
   template: jolla
   links:
-    - text: Twitter
-      href: 'https://twitter.com/shanedevlin33'
-    - text: LinkedIn
-      href: 'https://www.linkedin.com/in/shane-devlin-864895113/'
+  - text: Twitter
+    href: 'https://twitter.com/shanedevlin33'
+  - text: Linkedin
+    href: 'https://www.linkedin.com/in/shane-devlin-864895113/'
 --- 
 
 ## **Hello!**

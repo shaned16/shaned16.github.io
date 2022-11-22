@@ -5,11 +5,6 @@ project:
 website:
   title: "Shane Devlin, UC Berkeley Chemistry "
   about:
-  
-  favicon: twitter.png
-  twitter-card: true
-  site-url: https://twitter.com/shanedevlin33 
-  
   navbar:
     right:
       - href: index.qmd
@@ -17,7 +12,7 @@ website:
       - about.qmd
       - publications.qmd
       - href: fun_blog.qmd
-        text: Personal Blog
+        text: Fun Blog
 
 format:
   html:
