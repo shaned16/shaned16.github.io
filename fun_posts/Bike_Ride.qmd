@@ -7,6 +7,9 @@ image: ../S_T_start.jpeg
 categories:
  - Cycling
 ---
+```{r stup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
 
 I recently went on a bike packing trip with my good friend [Tyler](https://tylerkindy.com), who flew out from Boston to log some miles on the west coast.
 
@@ -14,7 +17,7 @@ Tyler and I have been bike packing partners since our junior year of college, wh
 
 For this ride, we settled on exploring the Pt.Reyes region north of San Francisco and had mapped out a 4-day ride.
 
-**Day 1: Berkeley -\> Samuel P Taylor State Park**
+**Day 1: Berkeley -> Samuel P Taylor State Park **
 
 On Day 1, we left Berkeley at around 10 AM and had an easy first 10 miles biking along the water on the San Francisco Bay Trail, with great views of the SF skyline. We then crossed over the San Rafael bridge (wind advisory!!) and started biking through Marin up towards Pt Reyes.
 
@@ -28,8 +31,176 @@ Tyler and I stayed in the cooling center until it closed down at 5 PM and played
 
 The last 10 miles to the campsite were a lot easier, and we replenished that night with plenty of fluids and dehydrated mac and cheese.
 
+**Day 2: Samuel P Taylor State Park -> Berkeley ** 
+
 After such a strenuous Day 1, and realizing that the heat advisory was in place for the next few days, Tyler and I decided the best thing was to cut the ride short. The next morning we woke up bright and early and started our ride back to Berkeley before the temperatures got too high.
+
+We were bummed to not finish our entire planned route, but that did not stop us from logging some more miles. Back in the Bay, where the temperatures were a lot more mild, Tyler and I went on some great day-rides. Our favorite started in Mill Valley, followed the waterfront through Sausalito, and then climbed the mountains behind the Golden Gate bridge.
 
 ![(left) Tyler biking down Hawk Hill, with the Marin Headlands in the background. (middle) Shane flexing on all the haters. (right) Tyler celebrates after conquering a steep climb and is rewarded with a great view of the Golden Gate Bridge](../S_T_collage.jpg)
 
-We were bummed to not finish our entire planned route, but that did not stop us from logging some more miles. Back in the Bay, where the temperatures were a lot more mild, Tyler and I went on some great day-rides. Our favorite started in Mill Valley, followed the waterfront through Sausalito, and then climbed the mountains behind the Golden Gate bridge.
+Take a closer look at our rides below! With the help of [Scout Leonard](https://scoutcleonard.github.io/index.html) and most of her code, I pulled the data from Strava and plotted them on a map of the Bay Area. I mainly work in Python, so this was my first experience doing any real coding in R, which was a lot of fun!
+
+I haven't included most of the code chunks. If you are interested in seeing that, check out [Scout's Post](https://scoutcleonard.github.io/posts/2022-09-05-mapping-fun-with-strava-data/) which goes through everything in detail, and will be documented much more neatly than mine. She is a real data scientist!
+
+# Giddy Up 
+First we loaded some new packages that were required for mapping Strava data, including **rStrava, googleway, and leaflet**. Next was connecting with the Strava API to pull all of my logged activities, and tidying that up into an easy-to-use CSV file. 
+```{r include = FALSE}
+if (!require(librarian)) {
+  install.packages("librarian")
+  library(librarian)
+}
+
+# load packages
+shelf(tidyverse,
+      here,
+      rStrava,
+      yaml,
+      feather,
+      googleway,
+      leaflet,
+      htmlwidgets)
+```
+
+
+```{r eval = FALSE, include = FALSE}
+source("../creds/strava_creds_2.R")
+```
+
+
+```{r eval = FALSE, include = FALSE}
+#download activities
+my_data  <- get_activity_list(stoken)
+
+#compile activities
+act_data <- compile_activities(my_data) %>% 
+  write_csv(here("data/strava_data.csv"))
+
+#check it out!
+glimpse(act_data)
+```
+
+```{r include = FALSE}
+act_data <- read_csv(here("data/strava_data.csv"))
+```
+
+# Data Filtering
+Strava is a great app in the sense that it collects a ton of useful data for competitive athletes. For washed-up, aging PhD students like me, only a few things are relevant. Here I select a few columns of interest, and then filter the data by type (Ride), the specific dates that we were bike packing, and converted distances into miles and feet instead of km and m.
+```{r}
+columns_of_interest <- c('distance',
+                         'elapsed_time',
+                         'elev_high',
+                         'elev_low',
+                         'moving_time',
+                         'start_date',
+                         'start_date_local',
+                         'type',
+                         'map.summary_polyline',
+                         'upload_id',
+                         'start_latlng1',
+                         'start_latlng2',
+                         'total_elevation_gain',
+                         'upload_id')
+
+activities <- select(act_data, match(columns_of_interest,
+                                     names(act_data)))
+
+activities <- activities %>% 
+  mutate(elapsed_time = round(elapsed_time / 60 /60, digits = 2),
+         moving_time = round(moving_time / 60 / 60, digits = 2),
+         total_elevation_gain = round(total_elevation_gain * 3.28084, digits = 0),
+         distance = round(distance*0.621371, digits = 0),
+         date = gsub("T.*$", '', start_date) %>% 
+           as.POSIXct(., format = "%Y-%m-%d")) %>% 
+  rename(latitude = "start_latlng1",
+         longitude = "start_latlng2") %>% 
+  mutate(start_date = as.Date(start_date_local)) 
+  
+activities <- activities %>% 
+  filter(type == "Ride",
+         "2022-09-10" > start_date,
+           start_date > "2022-09-05")
+
+```
+
+
+```{r include = FALSE}
+## Create blank map bounded by given lon and lat
+lons.range <- c(-122.8, -122.21)
+lats.range <- c(37.7, 38.2)
+
+#create a blank map
+map <- leaflet(options = leafletOptions(zoomControl = FALSE)) %>%
+  addProviderTiles('Stamen.Terrain',
+                   options = providerTileOptions(noWrap = T,
+                                                 minZoom = 7,
+                                                 maxZoom = 15)) %>%
+  fitBounds(lng1 = min(lons.range),
+            lat1 = max(lats.range),
+            lng2 <- max(lons.range),
+            lat2 = min(lats.range)) %>% 
+  addLegend(colors = ("#e34641"),
+            labels = ("Ride"),
+            position = "bottomright")
+
+map
+```
+
+# Map it
+Here we use leaflet to make a blank map and set the coordinates to focus on the region of interest. Lastly, we use polyline encoding to display the coordinates associated with an activity over the map. If you hover over an activity, a display is given with information about that specific ride.
+```{r}
+unique_activites <- unique(activities$upload_id)
+
+for (i in unique_activites){
+  
+  #get activity
+  activity <- filter(activities,
+                     upload_id == i)
+  
+  #decode polyline
+  coords <- decode_pl(activity$map.summary_polyline)
+  
+  #labs
+  labs <- paste0('<p>',
+                 '<b>',
+                 "Activity Date: ",
+                 '</b>',
+                 activity$date,
+                 '<p></p>',
+                 '<b>',
+                 "Distance (Miles): ",
+                 '</b>',
+                 activity$distance,
+                 '<p></p>',
+                 '<b>',
+                 "Time (Hours): ",
+                 '</b>',
+                 activity$elapsed_time,
+                 '<p></p>',
+                 '<b>',
+                 "Elevation Gain (Feet): ",
+                 '</b>',
+                 activity$total_elevation_gain,
+                 '<p>') %>% 
+    htmltools::HTML()
+  
+  #plot activity! 
+  map <- if (activity$type == "Ride") {
+    addPolylines(map,
+                 lng = coords$lon,
+                 lat = coords$lat,
+                 color = "#e34641",
+                 weight = 2,
+                 opacity = 0.8,
+                 label = labs,
+                 labelOptions = labelOptions(style = list("font-family" = "serif",
+                                                          "font-style" = "bold",
+                                                          "box-shadow" = "3px 3px rgba(0, 0, 0, 0.25)")))
+  } 
+  }
+
+map
+```
+
+
+Thanks for all the help, Scout!! And safe riding everyone! 

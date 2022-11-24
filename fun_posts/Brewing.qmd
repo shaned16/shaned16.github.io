@@ -12,7 +12,7 @@ We are back! We took quite a hiatus from brewing, but this past weekend we got t
 
 We use the all-grain method of brewing, as opposed to using an extract. It is a little extra work, but allows more control over the final product, and the process itself is quite fun.
 
-The first step on brew day is to grind up all of our base grain and specialty grain. For this recipe, we use roughly 16 pounds of 2-row crystal malt as our base, and 3 pounds of specialty grain. For a stout, the specialty grain is roasted to give those characteristic flavors and aromas of a dark beer.
+The first step on brew day is to grind up all of our base grain and specialty grain. For this recipe, we use roughly 16 pounds of 2-row malt as our base, and 3 pounds of specialty grain. For a stout, the specialty grain is roasted to give those characteristic flavors and aromas of a dark beer.
 
 ![Milling our Grain via Electric Drill](../grinding_grain.jpeg){width="295"}
 
@@ -24,4 +24,8 @@ After the mash, we sparge. Sparging is the process by which we we separate all o
 
 ![Alex enjoying some non-homebrew beer while supervising the sparge (not sponsored by Happy's Spirits and Wines)](../sparge.jpeg){width="284"}
 
-The top bucket is filled with water at \~170 F, the middle bucket is our mash, and the bottom 7 gallon kettle is our collection vessel. The process is simple - the top bucket very gentle springles hot water on the mash. This hot water rinses the grain bed and helps push out all of the sugar water - which gets collected in the stainless steel kettle.
+The top bucket is filled with water at ~170 F, the middle bucket is our mash, and the bottom 7 gallon kettle is our collection vessel. The process is simple - the top bucket very gentle sprinkles hot water on the mash. This hot water rinses the grain bed and helps push out all of the sugar water - which gets collected in the stainless steel kettle.
+
+We then boil all the liquid in the kettle for an hour, and add hops at different times during the boil. Depending on when you add hops (and what kind) you either contribute bitterness or hop-flavor. Roughly speaking, hops that go in early during the boil contribute bitterness to the beer, and hops added in later will contribute flavor.
+
+After the boil and hop addition, we recirculate the beer to reduce the temperature near ambient levels. At this point, we add yeast, and we have 
