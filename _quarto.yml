@@ -3,9 +3,9 @@ project:
   output-dir: docs
 
 website:
-  title: "Shane Devlin, UC Berkeley Chemistry "
-  about:
+  title: "Shane W. Devlin, Postdoc at LBNL "
   navbar:
+    background: primary
     right:
       - href: index.qmd
         text: Home
@@ -14,7 +14,7 @@ website:
       - publications.qmd
       - href: fun_blog.qmd
         text: Fun Blog
-
+  sidebar: false
 format:
   html:
     theme: journal
