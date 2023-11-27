@@ -16,7 +16,11 @@ Recently, we have expanded our arsenal of interface-specific spectroscopy tools 
 
 Below, you will find blog-style postings for events related to my research, such as published papers, conferences I have attended, etc. Enjoy - and please reach out to me if you have any questions or would like to discuss any of my work!
 
-## (7) [Conference: Farday Discussion - "Water at Interfaces"]
+## (7) Conference: Farday Discussion - "Water at Interfaces" London, England 
+
+In September 2023 I attended the Faraday Discussion focused on "Water at Interfaces", which was held in London by the Royal Society of Chemistry. I presented a poster on some recent work of mine, studying ion adsorption to liquid-liquid interfaces with planar liquid sheets. Overall, it was a stimulating conferences, and it was great to meet and talk science with so many people working in the same field as myself.  
+
+[Poster](Faraday_Poster_2023_v2/pdf{style="text-align:center;"})
 
 ## (6) [Paper: Agglomeration Drives the Reversed Fractionation of Carbonate and Bicarbonate at the Air-water Interface](https://pubs.acs.org/doi/full/10.1021/jacs.3c05093)
 

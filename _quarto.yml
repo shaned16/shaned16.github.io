@@ -20,7 +20,6 @@ format:
     theme: journal
     css: styles.css
     fontsize: 16px
-    toc: true
 
 editor: visual
 
