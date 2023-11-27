@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Shane W. Devlin, Postdoc at LBNL "
+  sidebar: false
   navbar:
     background: primary
     right:
@@ -14,7 +15,6 @@ website:
       - publications.qmd
       - href: fun_blog.qmd
         text: Fun Blog
-  sidebar: false
 format:
   html:
     theme: journal
