@@ -15,6 +15,8 @@ about:
 
 ## **Hello!**
 
-I am a PhD Candidate in the UC Berkeley Department of Chemistry. As an experimental physical chemist, I am interested in a fundamental understanding of how water and ions behave at surfaces, and the role this plays in environmentally and atmospherically relevant systems. Check out my [research](publications.qmd) page for more information about the work that I do!
+I am currently an Advanced Light Source Postdoctoral Fellow working at the Lawrence Berkeley National Lab. As an experimental physical chemist, I am interested in a fundamental understanding of how water and ions behave at surfaces, and the role this plays in environmentally and atmospherically relevant systems. I am currently using X-ray techniques, such as Ambient Pressure X-ray Photoelectron Spectroscopy and Soft X-ray Second Harmonic Generation to address these questions.
+
+I recently completed my PhD at the University of California, Berkeley. Check out my [research](publications.qmd) page for more information about the work that I do!
 
 For more information on the NOT-work that I do, check out [THIS](fun_blog.qmd) page!
