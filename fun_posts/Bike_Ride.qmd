@@ -7,6 +7,7 @@ image: ../S_T_start.jpeg
 categories:
  - Cycling
 ---
+
 ```{r stup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 ```
@@ -17,7 +18,7 @@ Tyler and I have been bike packing partners since our junior year of college, wh
 
 For this ride, we settled on exploring the Pt.Reyes region north of San Francisco and had mapped out a 4-day ride.
 
-**Day 1: Berkeley -> Samuel P Taylor State Park **
+**Day 1: Berkeley -\> Samuel P Taylor State Park**
 
 On Day 1, we left Berkeley at around 10 AM and had an easy first 10 miles biking along the water on the San Francisco Bay Trail, with great views of the SF skyline. We then crossed over the San Rafael bridge (wind advisory!!) and started biking through Marin up towards Pt Reyes.
 
@@ -31,7 +32,7 @@ Tyler and I stayed in the cooling center until it closed down at 5 PM and played
 
 The last 10 miles to the campsite were a lot easier, and we replenished that night with plenty of fluids and dehydrated mac and cheese.
 
-**Day 2: Samuel P Taylor State Park -> Berkeley ** 
+**Day 2: Samuel P Taylor State Park -\> Berkeley**
 
 After such a strenuous Day 1, and realizing that the heat advisory was in place for the next few days, Tyler and I decided the best thing was to cut the ride short. The next morning we woke up bright and early and started our ride back to Berkeley before the temperatures got too high.
 
@@ -43,8 +44,10 @@ Take a closer look at our rides below! With the help of [Scout Leonard](https://
 
 I haven't included most of the code chunks. If you are interested in seeing that, check out [Scout's Post](https://scoutcleonard.github.io/posts/2022-09-05-mapping-fun-with-strava-data/) which goes through everything in detail, and will be documented much more neatly than mine. She is a real data scientist!
 
-# Giddy Up 
-First we loaded some new packages that were required for mapping Strava data, including **rStrava, googleway, and leaflet**. Next was connecting with the Strava API to pull all of my logged activities, and tidying that up into an easy-to-use CSV file. 
+# Giddy Up
+
+First we loaded some new packages that were required for mapping Strava data, including **rStrava, googleway, and leaflet**. Next was connecting with the Strava API to pull all of my logged activities, and tidying that up into an easy-to-use CSV file.
+
 ```{r include = FALSE}
 if (!require(librarian)) {
   install.packages("librarian")
@@ -62,11 +65,9 @@ shelf(tidyverse,
       htmlwidgets)
 ```
 
-
 ```{r eval = FALSE, include = FALSE}
 source("../creds/strava_creds_2.R")
 ```
-
 
 ```{r eval = FALSE, include = FALSE}
 #download activities
@@ -85,7 +86,9 @@ act_data <- read_csv(here("data/strava_data.csv"))
 ```
 
 # Data Filtering
+
 Strava is a great app in the sense that it collects a ton of useful data for competitive athletes. For washed-up, aging PhD students like me, only a few things are relevant. Here I select a few columns of interest, and then filter the data by type (Ride), the specific dates that we were bike packing, and converted distances into miles and feet instead of km and m.
+
 ```{r}
 columns_of_interest <- c('distance',
                          'elapsed_time',
@@ -123,7 +126,6 @@ activities <- activities %>%
 
 ```
 
-
 ```{r include = FALSE}
 ## Create blank map bounded by given lon and lat
 lons.range <- c(-122.8, -122.21)
@@ -131,7 +133,7 @@ lats.range <- c(37.7, 38.2)
 
 #create a blank map
 map <- leaflet(options = leafletOptions(zoomControl = FALSE)) %>%
-  addProviderTiles('Stamen.Terrain',
+  addProviderTiles('Stadia.StamenTerrain',
                    options = providerTileOptions(noWrap = T,
                                                  minZoom = 7,
                                                  maxZoom = 15)) %>%
@@ -147,7 +149,9 @@ map
 ```
 
 # Map it
+
 Here we use leaflet to make a blank map and set the coordinates to focus on the region of interest. Lastly, we use polyline encoding to display the coordinates associated with an activity over the map. If you hover over an activity, a display is given with information about that specific ride.
+
 ```{r}
 unique_activites <- unique(activities$upload_id)
 
@@ -202,5 +206,4 @@ for (i in unique_activites){
 map
 ```
 
-
-Thanks for all the help, Scout!! And safe riding everyone! 
+Thanks for all the help, Scout!! And safe riding everyone!
