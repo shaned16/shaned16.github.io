@@ -1,5 +1,6 @@
 ---
 title: "Research Blog"
+sidebar: true 
 ---
 
 ------------------------------------------------------------------------
@@ -29,7 +30,7 @@ For the Faraday Discussion, our group contributed a review paper on "Water at In
 
 ## (7) Conference: Faraday Discussion - "Water at Interfaces" London, England
 
-In September 2023 I attended the Faraday Discussion focused on "Water at Interfaces", which was held in London by the Royal Society of Chemistry. I presented a poster on studying ion adsorption to liquid-liquid interfaces, using novel planar liquid sheets. Overall, it was a stimulating conferences, and it was great to meet and talk science with so many people working in the same field as myself.
+In September 2023 I attended the Faraday Discussion focused on "Water at Interfaces", which was held in London by the Royal Society of Chemistry. I presented a poster on studying ion adsorption to liquid-liquid interfaces, using novel planar liquid sheets. Overall, it was a stimulating conference, and it was great to meet and talk science with so many people working in the same field as myself.
 
 [Poster](Faraday_Poster_2023_v2.pdf){style="text-align:center;"}
 
@@ -38,6 +39,8 @@ In September 2023 I attended the Faraday Discussion focused on "Water at Interfa
 ![MD snapshot showing carbonate agglomeration in solution](Carb.jpg){style="text-align: center"}
 
 In this paper, we measure the surface affinity of the carbonate and bicarbonate anions to the air-water interface, a vitally important system in atmospheric aerosol and ocean-surface chemistry. We find that doubly-charged carbonate exhibits stronger attraction to the surface than does singly-charged bicarbonate, contradicting long-standing classical electrostatic theory and current predictions from ion adsorption models. Through MD simulations, we found that strong ion pairing, resulting in the formation on large, near-neutral clusters of sodium cations and carbonate anions, is responsible for this behavior. These agglomerates show much stronger surface affinity over the bicarbonate anions, which do not cluster in aqueous solutions. These findings will have influence our understanding of carbon dioxide dissolution in the ocean, as well as how pH in small aerosol droplets might influence reaction kinetics and pathways.
+
+The news team at the Lawrence Berkeley National Lab did a story on our findings, which can be accessed [here](https://newscenter.lbl.gov/2023/12/04/an-unexpected-discovery-at-the-air-water-interface/?utm_source=LBNL&utm_campaign=fbd83ba523-EMAIL_CAMPAIGN_2023_12_04_05_11_COPY_01&utm_medium=email&utm_term=0_-b5595049ef-%5BLIST_EMAIL_ID%5D).
 
 ## (5) [Paper: On The Mechanism of Ion Adsorption to Aqueous Interfaces: Air-water vs Oil-water](https://www.pnas.org/doi/10.1073/pnas.2210857119)
 
