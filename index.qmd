@@ -1,7 +1,7 @@
 ---
 title: "Shane Devlin"
 image: website.jpg
-sidebar: false 
+sidebar: true 
 about: 
   template: jolla
   links:
@@ -17,6 +17,6 @@ about:
 
 I am currently an Advanced Light Source Postdoctoral Fellow working at the Lawrence Berkeley National Lab. As an experimental physical chemist, I am interested in a fundamental understanding of how water and ions behave at surfaces, and the role this plays in environmentally and atmospherically relevant systems. I am currently using X-ray techniques, such as Ambient Pressure X-ray Photoelectron Spectroscopy and Soft X-ray Second Harmonic Generation to address these questions.
 
-I recently completed my PhD at the University of California, Berkeley. Check out my [research](publications.qmd) page for more information about the work that I do!
+I recently completed my PhD at the University of California, Berkeley. Check out my [research](publications.qmd) page for more information about what I have been working on!
 
-For more information on the NOT-work that I do, check out [THIS](fun_blog.qmd) page!
+For personal musings, check out [THIS](fun_blog.qmd) page!

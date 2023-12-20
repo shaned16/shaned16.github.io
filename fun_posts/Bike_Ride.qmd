@@ -128,8 +128,8 @@ activities <- activities %>%
 
 ```{r include = FALSE}
 ## Create blank map bounded by given lon and lat
-lons.range <- c(-122.8, -122.21)
-lats.range <- c(37.7, 38.2)
+lons.range = c(-122.8, -122.21)
+lats.range = c(37.7, 38.2)
 
 #create a blank map
 map <- leaflet(options = leafletOptions(zoomControl = FALSE)) %>%
