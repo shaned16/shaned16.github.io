@@ -3,18 +3,19 @@ project:
   output-dir: docs
 
 website:
-  title: "Shane W. Devlin, Postdoc at LBNL "
+  title: 'Shane W. Devlin, Postdoc at LBNL '
   sidebar: false
   navbar:
     background: primary
     right:
       - href: index.qmd
         text: Home
-      - href: resume/website_CV.pdf
+      - href: resume/Devlin_CV.pdf
         text: Cirriculum Vitae
       - publications.qmd
       - href: fun_blog.qmd
         text: Fun Blog
+        
 format:
   html:
     theme: journal
