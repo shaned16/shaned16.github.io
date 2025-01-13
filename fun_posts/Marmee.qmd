@@ -1,0 +1,15 @@
+---
+title: "Meet Marmee!"
+description: "Our new cat"
+author: "Shane Devlin"
+date: "12/20/2023"
+image: ../Marmee.JPG
+categories:
+  -cats
+---
+
+In June, we adopted our new cat, Marmee, from the [Berkeley Humane Shelter](https://berkeleyhumane.org/adopt/)! She is a domestic short-haired brown tabby, named after the mother, "Marmee", from Little Women. In some ways the name is ironic, since our Marmee can never be a mother. She came home to us spayed - with the blue tattoo to prove it.
+
+I plan to update this soon with lot of information about our favorite girl. For now, just enjoy this picture.
+
+![Tongues out!](../Marmee.JPG){style="text-align: center;" width="442"}
