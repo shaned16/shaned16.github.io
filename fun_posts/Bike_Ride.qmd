@@ -133,7 +133,7 @@ lats.range = c(37.7, 38.2)
 
 #create a blank map
 map <- leaflet(options = leafletOptions(zoomControl = FALSE)) %>%
-  addProviderTiles('OpenStreetMap.Mapnik',
+  addProviderTiles('CartoDB.Voyager',
                    options = providerTileOptions(noWrap = T,
                                                  minZoom = 7,
                                                  maxZoom = 15)) %>%
