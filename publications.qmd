@@ -24,9 +24,9 @@ These two techniques, combined with simulations, allowed us to develop a detaile
 
 Below, you will find blog-style postings for events related to my research, such as published papers, conferences I have attended, etc. Enjoy - and please reach out to me if you have any questions or would like to discuss any of my work!
 
-## (9) ALS Postdoctoral Fellowship Poster Session
+## (9) [ALS Postdoctoral Fellowship](https://als.lbl.gov/about/career-opportunities/als-collaborative-postdoctoral-fellowship-program/) Poster Session
 
-In September, I completed the first year of my Postdoctoral Fellowship at the Advanced Light Source (ALS) at the Lawrence Berkeley National Lab. Using Ambient Pressure X-ray Photoelectron Spectroscopy, combined with planar liquid jets, we have been studying the surface partitioning of ions to the air-water interface. In the upcoming second year of my fellowship, we are moving towards studying dynamic proceses, with a particular interest in understanding how certain reaction rates differ between the bulk and surface of a liquid solution. Check out my poster below for some more information!
+In September, I completed the first year of my Postdoctoral Fellowship at the Advanced Light Source (ALS) at the Lawrence Berkeley National Lab.  Using Ambient Pressure X-ray Photoelectron Spectroscopy, combined with planar liquid jets, we have been studying the surface partitioning of ions to the air-water interface. In the upcoming second year of my fellowship, we are moving towards studying dynamic proceses, with a particular interest in how reactions rates differ between the bulk and surface of a liquid solution. Check out my poster below for some more information! 
 
 [Poster Presented at the ALS Fellowship Poster Session](ALS_Fellow_Poster_ShaneDevlin_Final.pdf){style="text-align: center"}
 
