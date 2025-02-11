@@ -14,7 +14,7 @@ website:
         text: Cirriculum Vitae
       - publications.qmd
       - href: fun_blog.qmd
-        text: Fun Blog
+        text: Blog
         
 format:
   html:
